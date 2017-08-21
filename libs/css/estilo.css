@@ -1,0 +1,85 @@
+.parallax-container {
+      //min-height: 700px;
+}
+.padSeccion{
+    padding-top: 1%;
+}
+.azulclever{
+    color: #00A2D0;
+}
+.descubre{
+    background-image: url("../img/u3.jpg");
+    background-size: cover;
+}
+/*.acceso{
+    background-image: url("../img/u169.jpg");
+    background-size: cover;
+    margin-bottom: 0px;
+}*/
+.page-footer{
+    background: -webkit-linear-gradient(0deg, rgba(38, 45, 58, 1) 0%, rgba(38, 45, 58, 1) 0%, rgba(0, 125, 160, 1) 100%, rgba(0, 125, 160, 1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(38, 45, 58, 1) 0%, rgba(38, 45, 58, 1) 0%, rgba(0, 125, 160, 1) 100%, rgba(0, 125, 160, 1) 100%);
+    background: linear-gradient(90deg, rgba(38, 45, 58, 1) 0%, rgba(38, 45, 58, 1) 0%, rgba(0, 125, 160, 1) 100%, rgba(0, 125, 160, 1) 100%);
+}
+.pie{
+    margin-bottom: 0px;
+}
+.botonclever{
+    background: transparent;
+    border: 2px solid white;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.botonclever:hover{
+    background: transparent;
+}
+.miniform{
+    background: rgba(250,250,250,0.3);
+    border-radius: 5px;
+    padding-bottom: 2% !important;
+}
+i,p,h1{
+    color: dimgray;
+}
+h1{
+    font-size: 3em;
+}
+p{
+    font-size: 24px;
+}
+li{
+    font-size: 18px;
+}
+#footCenter{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    min-height: 50px;
+}
+#redes{
+    max-width: 300px;
+}
+.acceso{
+    //min-height: 500px;
+}
+#iniSesion2{
+    margin-top: 25%;
+    margin-bottom: 2%;
+}
+.btn{
+        letter-spacing: 0PX;
+}
+
+@media only screen and (max-width: 767px) {
+    #redes{
+        max-width: 100%;
+    }
+    #footCenter{
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .miniform{
+        padding-bottom: 2% !important;
+    }
+}
+
+        
